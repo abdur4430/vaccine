@@ -48,7 +48,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Home() {
     const classes = useStyles();
-    const [value, setValue] = useState(12, 'Delhi', 'Arvind', 12, 'Assam', 12, 12, 12);
     const [formsubmit, setFormsubmit] = useState(false);
 
     const refreshPage = () => {
