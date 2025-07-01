@@ -98,16 +98,16 @@ export default function Home() {
 
     }
 
-  useEffect(() => {
+ useEffect(() => {
   if (localStorage.getItem('datastored') !== undefined) {
     setFormsubmit(true);
   }
+
+  
+  return () => {
+    
+  };
 }, []);
-        return () => {
-
-        }
-    })
-
     return (
 
         formsubmit ? <Redirect to="/result" /> : (
