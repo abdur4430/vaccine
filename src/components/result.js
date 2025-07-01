@@ -109,7 +109,7 @@ export default function Result() {
 
     useEffect(() => {
         let result = localStorage.getItem('datastored');
-        if (result != undefined) setRows(JSON.parse(result));
+        if (result !== undefined) setRows(JSON.parse(result));
         console.log(result);
         return () => {
 
