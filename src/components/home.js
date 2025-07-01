@@ -97,7 +97,7 @@ export default function Home() {
         fetchData(date.props.children, pincode.value);
 
     }
-
+/*
  useEffect(() => {
   if (localStorage.getItem('datastored') !== undefined) {
     setFormsubmit(true);
@@ -107,7 +107,7 @@ export default function Home() {
   return () => {
     
   };
-}, []);
+}, []); */
     return (
 
         formsubmit ? <Redirect to="/result" /> : (
